@@ -1,0 +1,82 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.aboutLeft {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aboutRight {
+  flex: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.aboutBox {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 667px;
+}
+
+.aboutBoxIMG1 {
+  width: 100%;
+}
+
+.aboutRightBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+
+.aboutTextContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.aboutText {
+  max-width: 750px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .aboutBoxIMG {
+    width: 100%;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .aboutBox {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 630px;
+  }
+  .aboutRight {
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutRightBottom {
+    max-width: 630px;
+    height: fit-content;
+  }
+  .aboutTextContainer {
+    margin-top: 50px;
+  }
+}
