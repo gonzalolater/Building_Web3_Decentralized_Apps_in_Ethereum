@@ -1,0 +1,64 @@
+.footerBC {
+  margin-top: 0;
+}
+
+.footerIconText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-main);
+  margin-bottom: 21px;
+}
+
+.footerName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.footerJoin {
+  color: var(--color-main);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+
+.footerLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  cursor: pointer;
+}
+
+.footerLinkText {
+  margin-left: 23px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footerBox {
+  margin-top: 50px;
+  width: 224px;
+  height: 25px;
+  background: var(--color-main);
+}
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
