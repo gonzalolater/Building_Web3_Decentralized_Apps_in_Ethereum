@@ -1,0 +1,82 @@
+:root {
+  /*COLOR*/
+  --color-background: #ffffff;
+  --color-navbar: #ebebeb;
+
+  --color-main: #ff583d;
+  --color-white: #ffffff;
+  --color-box: red;
+
+  --color-text-main: #000000;
+
+  /*SIZE*/
+  ---main-padding: 0px;
+
+  ---border-radius: 0px;
+  ---border-radius-button: 0px;
+  ---border-radius-small: 0px;
+
+  ---navbar-height: 100px;
+}
+
+@font-face {
+  font-family: 'Sequel100Black-65';
+  src: local('Sequel100Black-65'), url(./fonts/Sequel100Black-65.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Sequel100Black-45';
+  src: local('Sequel100Black-45'), url(./fonts/Sequel100Black-45.ttf) format('opentype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sequel100Black-45', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+.main {
+  margin-bottom: 0px;
+}
+
+.red {
+  background-color: red;
+}
+
+.componentFirst {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.componentSecond {
+  width: 100%;
+  max-width: 1315px;
+  display: flex;
+  margin: 0 50px;
+  flex-direction: column;
+}
+
+.textHighlight {
+  color: var(--color-main);
+}
+
+@media only screen and (max-width: 670px) {
+  .componentSecond {
+    margin: 0 20px;
+  }
+  .main {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .componentSecond {
+    margin: 0 10px;
+  }
+}
