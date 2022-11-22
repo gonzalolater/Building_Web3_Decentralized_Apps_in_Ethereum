@@ -10,4 +10,4 @@ https://www.linkedin.com/learning/building-web3-decentralized-apps-in-ethereum
 
 3. Diploma
 
-[CertificateOfCompletion_Building Web3 Decentralized Apps in Ethereum.pdf](https://github.com/gonzalolater/Building_Web3_Decentralized_Apps_in_Ethereum/files/10071271/CertificateOfCompletion_Building.Web3.Decentralized.Apps.in.Ethereum.pdf)
+![image](https://user-images.githubusercontent.com/42863568/203427992-adcaa5c4-d1ac-4e3e-a2b0-61c0be328158.png)
